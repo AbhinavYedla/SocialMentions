@@ -16,5 +16,5 @@
 #'
 #' @examples
 #' data(timeFrame)
-#' allTime <- timeFrame[,1]
+#' allTimeFrames <- timeFrame[,1]
 "timeFrame"

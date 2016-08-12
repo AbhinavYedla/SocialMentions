@@ -13,7 +13,7 @@ Social Mention time frame Data
 }
 \examples{
 data(timeFrame)
-allTime <- timeFrame[,1]
+allTimeFrames <- timeFrame[,1]
 }
 \references{
 
