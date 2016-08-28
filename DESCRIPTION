@@ -1,12 +1,12 @@
-Package: socialmentions
-Title: Social Mentions
-Version: 0.1.0
+Package: socmentionr
+Title: socialmentions
+Version: 0.1.1
 Date: 2016-08-07
 Author: Abhinav Yedla, Dr.Shawn Dorius
 Maintainer: Abhinav Yedla <abhinavyedla@gmail.com>
 Description: Get Strength, Sentiment, Passion and Reach for a term. User can choose from five different sources. Blogs, MicroBlogs, Bookmarks, Images or combination of all the sources.
 Depends:
-    R (>= 3.0.1),
+    R (>= 3.1.0),
 	rvest
 Install from: Repository(CRAN)
 Imports: 
@@ -17,3 +17,6 @@ RoxygenNote: 5.0.1
 Authors@R: c(
     person("Abhinav", "Yedla", role=c("aut", "cre"), email="abhinavyedla@gmail.com"),
     person("Shawn", "Dorius", role=c("aut", "cre"), email="sdorius@iastate.edu"))
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

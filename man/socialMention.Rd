@@ -32,15 +32,10 @@ Last Hour, Last 12 Hours, Last Day, Last Week, Last Month or Anytime.
 }
 \examples{
 socialMention("United_States")
-   Date        Source     Term          Strength Sentiment Passion Reach TimeFrame
-   2016-08-11  all     United States       56       6:1      48    26       all
    
-
 source <- "blogs"
 time.frame <- "12h"
 socialMention("India", source, time.frame)
-   Date         Source  Term       Strength Sentiment Passion Reach TimeFrame
-   2016-08-11  blogs     India       12       1:2       0     3       12h
 
 }
 \author{

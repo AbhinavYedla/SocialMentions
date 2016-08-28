@@ -1,4 +1,4 @@
-# SocialMentions
+# socmentionr
 Description
 
 Get Strength, Sentiment, Passion and Reach for a term. User can choose from five different sources. Blogs, MicroBlogs, Bookmarks, Images or combination of all the sources.
