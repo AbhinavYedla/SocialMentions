@@ -24,13 +24,13 @@ A data frame consisting of data related to the term belonging to a source with i
 
 Author(s)
 
-Shawn Dorius sdorius@iastate.edu
+Shawn Dorius sdorius@iastate.edu\n
 Abhinav Yedla abhinavyedla@gmail.com
 
 Examples
 
-socialMention("United_States")
-   Date        Source     Term          Strength Sentiment Passion Reach TimeFrame
+socialMention("United_States")\n
+   Date        Source     Term          Strength Sentiment Passion Reach TimeFrame\n
    2016-08-11  all     United States       56       6:1      48    26       all
    
 
