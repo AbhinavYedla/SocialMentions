@@ -9,30 +9,30 @@ socialMention(term, source = "all", time.frame = "all")
 \arguments{
 \item{term}{- term for which user intend to get the data}
 
-\item{source}{- An list indicating the source(s) from which the data has to 
+\item{source}{- An list indicating the source(s) from which the data has to
 be retrieved.}
 
 \item{time.frame}{- An variable indicating the time frame for result data.}
 }
 \value{
-A data frame consisting of data related to the term belonging to a source 
+A data frame consisting of data related to the term belonging to a source
 with in the given time frame.
 }
 \description{
 Get Strength, Sentiment, Passion and Reach for a term. User can choose from
-five different sources. Blogs, MicroBlogs, Bookmarks, Images or combination 
+five different sources. Blogs, MicroBlogs, Bookmarks, Images or combination
 of all the sources.
 }
 \details{
 \code{term} is any character string
-\code{source} can be Blogs, MicroBlogs, Bookmarks, Images, all (Any Source) 
+\code{source} can be Blogs, MicroBlogs, Bookmarks, Images, all (Any Source)
 or list of all of the mentioned sources.
 \code{time.frame} can be h, 12h, 24h, w, m or all. Meaning in respective order
 Last Hour, Last 12 Hours, Last Day, Last Week, Last Month or Anytime.
 }
 \examples{
 socialMention("United_States")
-   
+
 source <- "blogs"
 time.frame <- "12h"
 socialMention("India", source, time.frame)
