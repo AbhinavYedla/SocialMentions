@@ -25,6 +25,7 @@ A data frame consisting of data related to the term belonging to a source with i
 Author(s)
 
 Shawn Dorius sdorius@iastate.edu
+
 Abhinav Yedla abhinavyedla@gmail.com
 
 Examples
